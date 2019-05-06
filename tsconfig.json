@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noStrictGenericChecks": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es5",
+      "es6",
+      "es2015",
+      "es2017",
+      "dom",
+      "esnext.asynciterable",
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./environment"
+  ],
+  "exclude": [
+    "node_modules",
+    "./node_modules"
+  ]
+}
