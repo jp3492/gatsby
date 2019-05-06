@@ -25,7 +25,7 @@ const IndexPage = () => {
       <ul>
         {
           users.map((user, i) => (
-            <div>
+            <div key={i}>
               {
                 user.name
               }
